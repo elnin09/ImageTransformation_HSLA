@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\tests">
+      <UniqueIdentifier>{55a5d000-3dfd-4f01-a012-9f3d45de0f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uiuc">
+      <UniqueIdentifier>{5ce52f4a-d960-4fff-9ea3-3c0f5aa391c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uiuc\catch">
+      <UniqueIdentifier>{824cce80-1bc8-474b-9c9c-09f4b396c43a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uiuc\lodepng">
+      <UniqueIdentifier>{c7a6e55a-1a93-49d1-a45c-f9806b2017a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\uiuc\make">
+      <UniqueIdentifier>{94b8ad2f-d0da-491a-9a38-c13ef4c166e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\alma.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\..\overlay.png">
+      <Filter>Source Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\ImageTransform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\part1.cpp">
+      <Filter>Source Files\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\part2.cpp">
+      <Filter>Source Files\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uiuc\HSLAPixel.cpp">
+      <Filter>Source Files\uiuc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uiuc\PNG.cpp">
+      <Filter>Source Files\uiuc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uiuc\catch\catchmain.cpp">
+      <Filter>Source Files\uiuc\catch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\uiuc\lodepng\lodepng.cpp">
+      <Filter>Source Files\uiuc\lodepng</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ImageTransform.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\uiuc\HSLAPixel.h">
+      <Filter>Source Files\uiuc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\uiuc\PNG.h">
+      <Filter>Source Files\uiuc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\uiuc\RGB_HSL.h">
+      <Filter>Source Files\uiuc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\uiuc\catch\catch.hpp">
+      <Filter>Source Files\uiuc\catch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\uiuc\lodepng\lodepng.h">
+      <Filter>Source Files\uiuc\lodepng</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\uiuc\make\uiuc.mk">
+      <Filter>Source Files\uiuc\make</Filter>
+    </None>
+  </ItemGroup>
+</Project>
